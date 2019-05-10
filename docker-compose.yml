@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   db:
-    image: nubutu/mysql:1
+    image: nubutu/mysql:2
     env_file:
       - env/mysql.env
     volumes:
